@@ -14,14 +14,10 @@ public protocol Color {
 }
 
 public struct RGBA : Color {
-    let red : CGFloat
-    let green : CGFloat
-    let blue : CGFloat
-    let alpha : CGFloat
-
-    public var CGColor : CGColorRef {
-        return CGColorCreateGenericRGB(self.red, self.green, self.blue, self.alpha)
-    }
+    public let red : CGFloat
+    public let green : CGFloat
+    public let blue : CGFloat
+    public let alpha : CGFloat
 
     public init(_ red: CGFloat, _ green: CGFloat, _ blue: CGFloat, _ alpha: CGFloat) {
         self.red = red
@@ -32,12 +28,8 @@ public struct RGBA : Color {
 }
 
 public struct GRAY : Color {
-    let gray : CGFloat
-    let alpha : CGFloat
-
-    public var CGColor : CGColorRef {
-        return CGColorCreateGenericGray(1, 1)
-    }
+    public let gray : CGFloat
+    public let alpha : CGFloat
 
     public init(_ gray: CGFloat, _ alpha: CGFloat) {
         self.gray = gray

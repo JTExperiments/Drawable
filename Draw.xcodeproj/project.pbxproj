@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4673701B33DAAA00C0C42B /* DrawKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A46736F1B33DAAA00C0C42B /* DrawKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A4673771B33DAAA00C0C42B /* DrawKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A46736D1B33DAAA00C0C42B /* DrawKit.framework */; };
+		1A46737E1B33DAAA00C0C42B /* DrawKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A46737D1B33DAAA00C0C42B /* DrawKitTests.swift */; };
+		1A4673821B33DAAA00C0C42B /* DrawKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A46736D1B33DAAA00C0C42B /* DrawKit.framework */; };
+		1A4673831B33DAAA00C0C42B /* DrawKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A46736D1B33DAAA00C0C42B /* DrawKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A4673A01B33DB1600C0C42B /* DrawKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A46736D1B33DAAA00C0C42B /* DrawKit.framework */; };
+		1A4673A11B33DB1A00C0C42B /* DrawKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1A46736D1B33DAAA00C0C42B /* DrawKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1A4673A71B33DC4600C0C42B /* Color+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673A31B33DC4600C0C42B /* Color+AppKit.swift */; };
+		1A4673A81B33DC4600C0C42B /* DrawableView+NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673A41B33DC4600C0C42B /* DrawableView+NSView.swift */; };
+		1A4673AE1B33DC8900C0C42B /* Color+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673AC1B33DC8900C0C42B /* Color+UIKit.swift */; };
+		1A4673AF1B33DC8900C0C42B /* DrawableView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673AD1B33DC8900C0C42B /* DrawableView+UIView.swift */; };
+		1A4673BB1B33DCB500C0C42B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673B11B33DCB500C0C42B /* Color.swift */; };
+		1A4673BC1B33DCB500C0C42B /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673B31B33DCB500C0C42B /* Circle.swift */; };
+		1A4673BD1B33DCB500C0C42B /* Diagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673B41B33DCB500C0C42B /* Diagram.swift */; };
+		1A4673BE1B33DCB500C0C42B /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673B51B33DCB500C0C42B /* Drawable.swift */; };
+		1A4673BF1B33DCB500C0C42B /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673B61B33DCB500C0C42B /* Polygon.swift */; };
+		1A4673C01B33DCB500C0C42B /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673B71B33DCB500C0C42B /* Triangle.swift */; };
+		1A4673C11B33DCB500C0C42B /* CGContext+Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673B91B33DCB500C0C42B /* CGContext+Renderer.swift */; };
+		1A4673C21B33DCB500C0C42B /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4673BA1B33DCB500C0C42B /* Renderer.swift */; };
 		1A4D00BD1B33A0670091CEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D00BC1B33A0670091CEDE /* AppDelegate.swift */; };
 		1A4D00BF1B33A0670091CEDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D00BE1B33A0670091CEDE /* ViewController.swift */; };
 		1A4D00C11B33A0670091CEDE /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D00C01B33A0670091CEDE /* Document.swift */; };
@@ -15,22 +34,45 @@
 		1A4D00C91B33A0670091CEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4D00C71B33A0670091CEDE /* Main.storyboard */; };
 		1A4D00D41B33A0670091CEDE /* DrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D00D31B33A0670091CEDE /* DrawTests.swift */; };
 		1A4D00DF1B33A0670091CEDE /* DrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D00DE1B33A0670091CEDE /* DrawUITests.swift */; };
-		1A4D01081B33CB280091CEDE /* DrawKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4D01071B33CB280091CEDE /* DrawKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A4D010F1B33CB280091CEDE /* DrawKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4D01051B33CB280091CEDE /* DrawKit.framework */; };
-		1A4D01141B33CB280091CEDE /* DrawKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D01131B33CB280091CEDE /* DrawKitTests.swift */; };
-		1A4D01271B33CB430091CEDE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D011C1B33CB430091CEDE /* Color.swift */; };
-		1A4D01281B33CB430091CEDE /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D011E1B33CB430091CEDE /* Circle.swift */; };
-		1A4D01291B33CB430091CEDE /* Diagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D011F1B33CB430091CEDE /* Diagram.swift */; };
-		1A4D012A1B33CB430091CEDE /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D01201B33CB430091CEDE /* Drawable.swift */; };
-		1A4D012B1B33CB430091CEDE /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D01211B33CB430091CEDE /* Polygon.swift */; };
-		1A4D012C1B33CB430091CEDE /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D01221B33CB430091CEDE /* Triangle.swift */; };
-		1A4D012E1B33CB430091CEDE /* CGContext+Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D01251B33CB430091CEDE /* CGContext+Renderer.swift */; };
-		1A4D012F1B33CB430091CEDE /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D01261B33CB430091CEDE /* Renderer.swift */; };
-		1A4D01321B33CB660091CEDE /* DrawKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4D01051B33CB280091CEDE /* DrawKit.framework */; };
-		1A8F46A91B33CCA200F9FF66 /* DrawableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F46A81B33CCA200F9FF66 /* DrawableView.swift */; };
+		1A8F46B31B33D1C600F9FF66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F46B21B33D1C600F9FF66 /* AppDelegate.swift */; };
+		1A8F46B51B33D1C600F9FF66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F46B41B33D1C600F9FF66 /* ViewController.swift */; };
+		1A8F46B81B33D1C600F9FF66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8F46B61B33D1C600F9FF66 /* Main.storyboard */; };
+		1A8F46BB1B33D1C600F9FF66 /* DrawiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F46B91B33D1C600F9FF66 /* DrawiOS.xcdatamodeld */; };
+		1A8F46BD1B33D1C600F9FF66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8F46BC1B33D1C600F9FF66 /* Assets.xcassets */; };
+		1A8F46C01B33D1C600F9FF66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8F46BE1B33D1C600F9FF66 /* LaunchScreen.storyboard */; };
+		1A8F46CB1B33D1C600F9FF66 /* DrawiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F46CA1B33D1C600F9FF66 /* DrawiOSTests.swift */; };
+		1A8F46D61B33D1C600F9FF66 /* DrawiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F46D51B33D1C600F9FF66 /* DrawiOSUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1A4673781B33DAAA00C0C42B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4D00B11B33A0660091CEDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A46736C1B33DAAA00C0C42B;
+			remoteInfo = DrawKit;
+		};
+		1A46737A1B33DAAA00C0C42B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4D00B11B33A0660091CEDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A8F46AF1B33D1C600F9FF66;
+			remoteInfo = DrawiOS;
+		};
+		1A4673801B33DAAA00C0C42B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4D00B11B33A0660091CEDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A46736C1B33DAAA00C0C42B;
+			remoteInfo = DrawKit;
+		};
+		1A46739E1B33DB1300C0C42B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4D00B11B33A0660091CEDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A46736C1B33DAAA00C0C42B;
+			remoteInfo = DrawKit;
+		};
 		1A4D00D01B33A0670091CEDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1A4D00B11B33A0660091CEDE /* Project object */;
@@ -45,23 +87,66 @@
 			remoteGlobalIDString = 1A4D00B81B33A0670091CEDE;
 			remoteInfo = Draw;
 		};
-		1A4D01101B33CB280091CEDE /* PBXContainerItemProxy */ = {
+		1A8F46C71B33D1C600F9FF66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1A4D00B11B33A0660091CEDE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1A4D01041B33CB280091CEDE;
-			remoteInfo = DrawKit;
+			remoteGlobalIDString = 1A8F46AF1B33D1C600F9FF66;
+			remoteInfo = DrawiOS;
 		};
-		1A4D01301B33CB620091CEDE /* PBXContainerItemProxy */ = {
+		1A8F46D21B33D1C600F9FF66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1A4D00B11B33A0660091CEDE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1A4D01041B33CB280091CEDE;
-			remoteInfo = DrawKit;
+			remoteGlobalIDString = 1A8F46AF1B33D1C600F9FF66;
+			remoteInfo = DrawiOS;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A8F472F1B33D7D300F9FF66 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1A4673831B33DAAA00C0C42B /* DrawKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8F47501B33D7EB00F9FF66 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1A4673A11B33DB1A00C0C42B /* DrawKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A46736D1B33DAAA00C0C42B /* DrawKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DrawKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A46736F1B33DAAA00C0C42B /* DrawKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawKit.h; sourceTree = "<group>"; };
+		1A4673711B33DAAA00C0C42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A4673761B33DAAA00C0C42B /* DrawKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A46737D1B33DAAA00C0C42B /* DrawKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawKitTests.swift; sourceTree = "<group>"; };
+		1A46737F1B33DAAA00C0C42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A4673A31B33DC4600C0C42B /* Color+AppKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+AppKit.swift"; sourceTree = "<group>"; };
+		1A4673A41B33DC4600C0C42B /* DrawableView+NSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DrawableView+NSView.swift"; sourceTree = "<group>"; };
+		1A4673AC1B33DC8900C0C42B /* Color+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+UIKit.swift"; sourceTree = "<group>"; };
+		1A4673AD1B33DC8900C0C42B /* DrawableView+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DrawableView+UIView.swift"; sourceTree = "<group>"; };
+		1A4673B11B33DCB500C0C42B /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1A4673B31B33DCB500C0C42B /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		1A4673B41B33DCB500C0C42B /* Diagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diagram.swift; sourceTree = "<group>"; };
+		1A4673B51B33DCB500C0C42B /* Drawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		1A4673B61B33DCB500C0C42B /* Polygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		1A4673B71B33DCB500C0C42B /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		1A4673B91B33DCB500C0C42B /* CGContext+Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+Renderer.swift"; sourceTree = "<group>"; };
+		1A4673BA1B33DCB500C0C42B /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 		1A4D00B91B33A0670091CEDE /* Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4D00BC1B33A0670091CEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A4D00BE1B33A0670091CEDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,29 +161,43 @@
 		1A4D00DA1B33A0670091CEDE /* DrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4D00DE1B33A0670091CEDE /* DrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawUITests.swift; sourceTree = "<group>"; };
 		1A4D00E01B33A0670091CEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A4D01051B33CB280091CEDE /* DrawKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DrawKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A4D01071B33CB280091CEDE /* DrawKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawKit.h; sourceTree = "<group>"; };
-		1A4D01091B33CB280091CEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A4D010E1B33CB280091CEDE /* DrawKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A4D01131B33CB280091CEDE /* DrawKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawKitTests.swift; sourceTree = "<group>"; };
-		1A4D01151B33CB280091CEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A4D011C1B33CB430091CEDE /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		1A4D011E1B33CB430091CEDE /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
-		1A4D011F1B33CB430091CEDE /* Diagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diagram.swift; sourceTree = "<group>"; };
-		1A4D01201B33CB430091CEDE /* Drawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
-		1A4D01211B33CB430091CEDE /* Polygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
-		1A4D01221B33CB430091CEDE /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
-		1A4D01251B33CB430091CEDE /* CGContext+Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+Renderer.swift"; sourceTree = "<group>"; };
-		1A4D01261B33CB430091CEDE /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		1A8F46A81B33CCA200F9FF66 /* DrawableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawableView.swift; sourceTree = "<group>"; };
+		1A8F46B01B33D1C600F9FF66 /* DrawiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8F46B21B33D1C600F9FF66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A8F46B41B33D1C600F9FF66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A8F46B71B33D1C600F9FF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A8F46BA1B33D1C600F9FF66 /* DrawiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawiOS.xcdatamodel; sourceTree = "<group>"; };
+		1A8F46BC1B33D1C600F9FF66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A8F46BF1B33D1C600F9FF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A8F46C11B33D1C600F9FF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8F46C61B33D1C600F9FF66 /* DrawiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8F46CA1B33D1C600F9FF66 /* DrawiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawiOSTests.swift; sourceTree = "<group>"; };
+		1A8F46CC1B33D1C600F9FF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8F46D11B33D1C600F9FF66 /* DrawiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8F46D51B33D1C600F9FF66 /* DrawiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawiOSUITests.swift; sourceTree = "<group>"; };
+		1A8F46D71B33D1C600F9FF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A4673691B33DAAA00C0C42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4673731B33DAAA00C0C42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4673771B33DAAA00C0C42B /* DrawKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A4D00B61B33A0670091CEDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4D01321B33CB660091CEDE /* DrawKit.framework in Frameworks */,
+				1A4673A01B33DB1600C0C42B /* DrawKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,32 +215,112 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A4D01011B33CB280091CEDE /* Frameworks */ = {
+		1A8F46AD1B33D1C600F9FF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4673821B33DAAA00C0C42B /* DrawKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8F46C31B33D1C600F9FF66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A4D010B1B33CB280091CEDE /* Frameworks */ = {
+		1A8F46CE1B33D1C600F9FF66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4D010F1B33CB280091CEDE /* DrawKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A46736E1B33DAAA00C0C42B /* DrawKit */ = {
+			isa = PBXGroup;
+			children = (
+				1A4673B01B33DCB500C0C42B /* Shared */,
+				1A4673AB1B33DC8900C0C42B /* iOS */,
+				1A4673A21B33DC4600C0C42B /* OSX */,
+				1A46736F1B33DAAA00C0C42B /* DrawKit.h */,
+				1A4673711B33DAAA00C0C42B /* Info.plist */,
+			);
+			path = DrawKit;
+			sourceTree = "<group>";
+		};
+		1A46737C1B33DAAA00C0C42B /* DrawKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A46737D1B33DAAA00C0C42B /* DrawKitTests.swift */,
+				1A46737F1B33DAAA00C0C42B /* Info.plist */,
+			);
+			path = DrawKitTests;
+			sourceTree = "<group>";
+		};
+		1A4673A21B33DC4600C0C42B /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				1A4673A31B33DC4600C0C42B /* Color+AppKit.swift */,
+				1A4673A41B33DC4600C0C42B /* DrawableView+NSView.swift */,
+			);
+			path = OSX;
+			sourceTree = "<group>";
+		};
+		1A4673AB1B33DC8900C0C42B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1A4673AC1B33DC8900C0C42B /* Color+UIKit.swift */,
+				1A4673AD1B33DC8900C0C42B /* DrawableView+UIView.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		1A4673B01B33DCB500C0C42B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1A4673B11B33DCB500C0C42B /* Color.swift */,
+				1A4673B21B33DCB500C0C42B /* Drawable */,
+				1A4673B81B33DCB500C0C42B /* Renderer */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1A4673B21B33DCB500C0C42B /* Drawable */ = {
+			isa = PBXGroup;
+			children = (
+				1A4673B31B33DCB500C0C42B /* Circle.swift */,
+				1A4673B41B33DCB500C0C42B /* Diagram.swift */,
+				1A4673B51B33DCB500C0C42B /* Drawable.swift */,
+				1A4673B61B33DCB500C0C42B /* Polygon.swift */,
+				1A4673B71B33DCB500C0C42B /* Triangle.swift */,
+			);
+			path = Drawable;
+			sourceTree = "<group>";
+		};
+		1A4673B81B33DCB500C0C42B /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				1A4673B91B33DCB500C0C42B /* CGContext+Renderer.swift */,
+				1A4673BA1B33DCB500C0C42B /* Renderer.swift */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
 		1A4D00B01B33A0660091CEDE = {
 			isa = PBXGroup;
 			children = (
 				1A4D00BB1B33A0670091CEDE /* Draw */,
 				1A4D00D21B33A0670091CEDE /* DrawTests */,
 				1A4D00DD1B33A0670091CEDE /* DrawUITests */,
-				1A4D01061B33CB280091CEDE /* DrawKit */,
-				1A4D01121B33CB280091CEDE /* DrawKitTests */,
+				1A8F46B11B33D1C600F9FF66 /* DrawiOS */,
+				1A8F46C91B33D1C600F9FF66 /* DrawiOSTests */,
+				1A8F46D41B33D1C600F9FF66 /* DrawiOSUITests */,
+				1A46736E1B33DAAA00C0C42B /* DrawKit */,
+				1A46737C1B33DAAA00C0C42B /* DrawKitTests */,
 				1A4D00BA1B33A0670091CEDE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,8 +331,11 @@
 				1A4D00B91B33A0670091CEDE /* Draw.app */,
 				1A4D00CF1B33A0670091CEDE /* DrawTests.xctest */,
 				1A4D00DA1B33A0670091CEDE /* DrawUITests.xctest */,
-				1A4D01051B33CB280091CEDE /* DrawKit.framework */,
-				1A4D010E1B33CB280091CEDE /* DrawKitTests.xctest */,
+				1A8F46B01B33D1C600F9FF66 /* DrawiOS.app */,
+				1A8F46C61B33D1C600F9FF66 /* DrawiOSTests.xctest */,
+				1A8F46D11B33D1C600F9FF66 /* DrawiOSUITests.xctest */,
+				1A46736D1B33DAAA00C0C42B /* DrawKit.framework */,
+				1A4673761B33DAAA00C0C42B /* DrawKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,7 +343,6 @@
 		1A4D00BB1B33A0670091CEDE /* Draw */ = {
 			isa = PBXGroup;
 			children = (
-				1A8F46A81B33CCA200F9FF66 /* DrawableView.swift */,
 				1A4D00BC1B33A0670091CEDE /* AppDelegate.swift */,
 				1A4D00BE1B33A0670091CEDE /* ViewController.swift */,
 				1A4D00C01B33A0670091CEDE /* Document.swift */,
@@ -191,62 +372,89 @@
 			path = DrawUITests;
 			sourceTree = "<group>";
 		};
-		1A4D01061B33CB280091CEDE /* DrawKit */ = {
+		1A8F46B11B33D1C600F9FF66 /* DrawiOS */ = {
 			isa = PBXGroup;
 			children = (
-				1A4D011C1B33CB430091CEDE /* Color.swift */,
-				1A4D011D1B33CB430091CEDE /* Drawable */,
-				1A4D01241B33CB430091CEDE /* Renderer */,
-				1A4D01071B33CB280091CEDE /* DrawKit.h */,
-				1A4D01091B33CB280091CEDE /* Info.plist */,
+				1A8F46B21B33D1C600F9FF66 /* AppDelegate.swift */,
+				1A8F46B41B33D1C600F9FF66 /* ViewController.swift */,
+				1A8F46B61B33D1C600F9FF66 /* Main.storyboard */,
+				1A8F46BC1B33D1C600F9FF66 /* Assets.xcassets */,
+				1A8F46BE1B33D1C600F9FF66 /* LaunchScreen.storyboard */,
+				1A8F46C11B33D1C600F9FF66 /* Info.plist */,
+				1A8F46B91B33D1C600F9FF66 /* DrawiOS.xcdatamodeld */,
 			);
-			path = DrawKit;
+			path = DrawiOS;
 			sourceTree = "<group>";
 		};
-		1A4D01121B33CB280091CEDE /* DrawKitTests */ = {
+		1A8F46C91B33D1C600F9FF66 /* DrawiOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				1A4D01131B33CB280091CEDE /* DrawKitTests.swift */,
-				1A4D01151B33CB280091CEDE /* Info.plist */,
+				1A8F46CA1B33D1C600F9FF66 /* DrawiOSTests.swift */,
+				1A8F46CC1B33D1C600F9FF66 /* Info.plist */,
 			);
-			path = DrawKitTests;
+			path = DrawiOSTests;
 			sourceTree = "<group>";
 		};
-		1A4D011D1B33CB430091CEDE /* Drawable */ = {
+		1A8F46D41B33D1C600F9FF66 /* DrawiOSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1A4D011E1B33CB430091CEDE /* Circle.swift */,
-				1A4D011F1B33CB430091CEDE /* Diagram.swift */,
-				1A4D01201B33CB430091CEDE /* Drawable.swift */,
-				1A4D01211B33CB430091CEDE /* Polygon.swift */,
-				1A4D01221B33CB430091CEDE /* Triangle.swift */,
+				1A8F46D51B33D1C600F9FF66 /* DrawiOSUITests.swift */,
+				1A8F46D71B33D1C600F9FF66 /* Info.plist */,
 			);
-			path = Drawable;
-			sourceTree = "<group>";
-		};
-		1A4D01241B33CB430091CEDE /* Renderer */ = {
-			isa = PBXGroup;
-			children = (
-				1A4D01251B33CB430091CEDE /* CGContext+Renderer.swift */,
-				1A4D01261B33CB430091CEDE /* Renderer.swift */,
-			);
-			path = Renderer;
+			path = DrawiOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A4D01021B33CB280091CEDE /* Headers */ = {
+		1A46736A1B33DAAA00C0C42B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4D01081B33CB280091CEDE /* DrawKit.h in Headers */,
+				1A4673701B33DAAA00C0C42B /* DrawKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1A46736C1B33DAAA00C0C42B /* DrawKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A4673841B33DAAA00C0C42B /* Build configuration list for PBXNativeTarget "DrawKit" */;
+			buildPhases = (
+				1A4673681B33DAAA00C0C42B /* Sources */,
+				1A4673691B33DAAA00C0C42B /* Frameworks */,
+				1A46736A1B33DAAA00C0C42B /* Headers */,
+				1A46736B1B33DAAA00C0C42B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawKit;
+			productName = DrawKit;
+			productReference = 1A46736D1B33DAAA00C0C42B /* DrawKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A4673751B33DAAA00C0C42B /* DrawKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A4673871B33DAAA00C0C42B /* Build configuration list for PBXNativeTarget "DrawKitTests" */;
+			buildPhases = (
+				1A4673721B33DAAA00C0C42B /* Sources */,
+				1A4673731B33DAAA00C0C42B /* Frameworks */,
+				1A4673741B33DAAA00C0C42B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A4673791B33DAAA00C0C42B /* PBXTargetDependency */,
+				1A46737B1B33DAAA00C0C42B /* PBXTargetDependency */,
+			);
+			name = DrawKitTests;
+			productName = DrawKitTests;
+			productReference = 1A4673761B33DAAA00C0C42B /* DrawKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1A4D00B81B33A0670091CEDE /* Draw */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A4D00E31B33A0670091CEDE /* Build configuration list for PBXNativeTarget "Draw" */;
@@ -254,11 +462,12 @@
 				1A4D00B51B33A0670091CEDE /* Sources */,
 				1A4D00B61B33A0670091CEDE /* Frameworks */,
 				1A4D00B71B33A0670091CEDE /* Resources */,
+				1A8F47501B33D7EB00F9FF66 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1A4D01311B33CB620091CEDE /* PBXTargetDependency */,
+				1A46739F1B33DB1300C0C42B /* PBXTargetDependency */,
 			);
 			name = Draw;
 			productName = Draw;
@@ -301,41 +510,60 @@
 			productReference = 1A4D00DA1B33A0670091CEDE /* DrawUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		1A4D01041B33CB280091CEDE /* DrawKit */ = {
+		1A8F46AF1B33D1C600F9FF66 /* DrawiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A4D01161B33CB280091CEDE /* Build configuration list for PBXNativeTarget "DrawKit" */;
+			buildConfigurationList = 1A8F46D81B33D1C600F9FF66 /* Build configuration list for PBXNativeTarget "DrawiOS" */;
 			buildPhases = (
-				1A4D01001B33CB280091CEDE /* Sources */,
-				1A4D01011B33CB280091CEDE /* Frameworks */,
-				1A4D01021B33CB280091CEDE /* Headers */,
-				1A4D01031B33CB280091CEDE /* Resources */,
+				1A8F46AC1B33D1C600F9FF66 /* Sources */,
+				1A8F46AD1B33D1C600F9FF66 /* Frameworks */,
+				1A8F46AE1B33D1C600F9FF66 /* Resources */,
+				1A8F472F1B33D7D300F9FF66 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1A4673811B33DAAA00C0C42B /* PBXTargetDependency */,
 			);
-			name = DrawKit;
-			productName = DrawKit;
-			productReference = 1A4D01051B33CB280091CEDE /* DrawKit.framework */;
-			productType = "com.apple.product-type.framework";
+			name = DrawiOS;
+			productName = DrawiOS;
+			productReference = 1A8F46B01B33D1C600F9FF66 /* DrawiOS.app */;
+			productType = "com.apple.product-type.application";
 		};
-		1A4D010D1B33CB280091CEDE /* DrawKitTests */ = {
+		1A8F46C51B33D1C600F9FF66 /* DrawiOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A4D01191B33CB280091CEDE /* Build configuration list for PBXNativeTarget "DrawKitTests" */;
+			buildConfigurationList = 1A8F46DB1B33D1C600F9FF66 /* Build configuration list for PBXNativeTarget "DrawiOSTests" */;
 			buildPhases = (
-				1A4D010A1B33CB280091CEDE /* Sources */,
-				1A4D010B1B33CB280091CEDE /* Frameworks */,
-				1A4D010C1B33CB280091CEDE /* Resources */,
+				1A8F46C21B33D1C600F9FF66 /* Sources */,
+				1A8F46C31B33D1C600F9FF66 /* Frameworks */,
+				1A8F46C41B33D1C600F9FF66 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1A4D01111B33CB280091CEDE /* PBXTargetDependency */,
+				1A8F46C81B33D1C600F9FF66 /* PBXTargetDependency */,
 			);
-			name = DrawKitTests;
-			productName = DrawKitTests;
-			productReference = 1A4D010E1B33CB280091CEDE /* DrawKitTests.xctest */;
+			name = DrawiOSTests;
+			productName = DrawiOSTests;
+			productReference = 1A8F46C61B33D1C600F9FF66 /* DrawiOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A8F46D01B33D1C600F9FF66 /* DrawiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8F46DE1B33D1C600F9FF66 /* Build configuration list for PBXNativeTarget "DrawiOSUITests" */;
+			buildPhases = (
+				1A8F46CD1B33D1C600F9FF66 /* Sources */,
+				1A8F46CE1B33D1C600F9FF66 /* Frameworks */,
+				1A8F46CF1B33D1C600F9FF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8F46D31B33D1C600F9FF66 /* PBXTargetDependency */,
+			);
+			name = DrawiOSUITests;
+			productName = DrawiOSUITests;
+			productReference = 1A8F46D11B33D1C600F9FF66 /* DrawiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -347,6 +575,13 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "James Tang";
 				TargetAttributes = {
+					1A46736C1B33DAAA00C0C42B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1A4673751B33DAAA00C0C42B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1A8F46AF1B33D1C600F9FF66;
+					};
 					1A4D00B81B33A0670091CEDE = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -358,11 +593,16 @@
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 1A4D00B81B33A0670091CEDE;
 					};
-					1A4D01041B33CB280091CEDE = {
+					1A8F46AF1B33D1C600F9FF66 = {
 						CreatedOnToolsVersion = 7.0;
 					};
-					1A4D010D1B33CB280091CEDE = {
+					1A8F46C51B33D1C600F9FF66 = {
 						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1A8F46AF1B33D1C600F9FF66;
+					};
+					1A8F46D01B33D1C600F9FF66 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1A8F46AF1B33D1C600F9FF66;
 					};
 				};
 			};
@@ -382,13 +622,30 @@
 				1A4D00B81B33A0670091CEDE /* Draw */,
 				1A4D00CE1B33A0670091CEDE /* DrawTests */,
 				1A4D00D91B33A0670091CEDE /* DrawUITests */,
-				1A4D01041B33CB280091CEDE /* DrawKit */,
-				1A4D010D1B33CB280091CEDE /* DrawKitTests */,
+				1A8F46AF1B33D1C600F9FF66 /* DrawiOS */,
+				1A8F46C51B33D1C600F9FF66 /* DrawiOSTests */,
+				1A8F46D01B33D1C600F9FF66 /* DrawiOSUITests */,
+				1A46736C1B33DAAA00C0C42B /* DrawKit */,
+				1A4673751B33DAAA00C0C42B /* DrawKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1A46736B1B33DAAA00C0C42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4673741B33DAAA00C0C42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A4D00B71B33A0670091CEDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -412,14 +669,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A4D01031B33CB280091CEDE /* Resources */ = {
+		1A8F46AE1B33D1C600F9FF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8F46C01B33D1C600F9FF66 /* LaunchScreen.storyboard in Resources */,
+				1A8F46BD1B33D1C600F9FF66 /* Assets.xcassets in Resources */,
+				1A8F46B81B33D1C600F9FF66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8F46C41B33D1C600F9FF66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A4D010C1B33CB280091CEDE /* Resources */ = {
+		1A8F46CF1B33D1C600F9FF66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,13 +696,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1A4673681B33DAAA00C0C42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4673A81B33DC4600C0C42B /* DrawableView+NSView.swift in Sources */,
+				1A4673C11B33DCB500C0C42B /* CGContext+Renderer.swift in Sources */,
+				1A4673AF1B33DC8900C0C42B /* DrawableView+UIView.swift in Sources */,
+				1A4673BD1B33DCB500C0C42B /* Diagram.swift in Sources */,
+				1A4673C21B33DCB500C0C42B /* Renderer.swift in Sources */,
+				1A4673BE1B33DCB500C0C42B /* Drawable.swift in Sources */,
+				1A4673AE1B33DC8900C0C42B /* Color+UIKit.swift in Sources */,
+				1A4673BF1B33DCB500C0C42B /* Polygon.swift in Sources */,
+				1A4673BB1B33DCB500C0C42B /* Color.swift in Sources */,
+				1A4673C01B33DCB500C0C42B /* Triangle.swift in Sources */,
+				1A4673A71B33DC4600C0C42B /* Color+AppKit.swift in Sources */,
+				1A4673BC1B33DCB500C0C42B /* Circle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4673721B33DAAA00C0C42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A46737E1B33DAAA00C0C42B /* DrawKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A4D00B51B33A0670091CEDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A4D00C41B33A0670091CEDE /* Document.xcdatamodeld in Sources */,
 				1A4D00BF1B33A0670091CEDE /* ViewController.swift in Sources */,
-				1A8F46A91B33CCA200F9FF66 /* DrawableView.swift in Sources */,
 				1A4D00BD1B33A0670091CEDE /* AppDelegate.swift in Sources */,
 				1A4D00C11B33A0670091CEDE /* Document.swift in Sources */,
 			);
@@ -457,32 +750,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A4D01001B33CB280091CEDE /* Sources */ = {
+		1A8F46AC1B33D1C600F9FF66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4D01271B33CB430091CEDE /* Color.swift in Sources */,
-				1A4D012B1B33CB430091CEDE /* Polygon.swift in Sources */,
-				1A4D01281B33CB430091CEDE /* Circle.swift in Sources */,
-				1A4D012E1B33CB430091CEDE /* CGContext+Renderer.swift in Sources */,
-				1A4D012C1B33CB430091CEDE /* Triangle.swift in Sources */,
-				1A4D01291B33CB430091CEDE /* Diagram.swift in Sources */,
-				1A4D012F1B33CB430091CEDE /* Renderer.swift in Sources */,
-				1A4D012A1B33CB430091CEDE /* Drawable.swift in Sources */,
+				1A8F46BB1B33D1C600F9FF66 /* DrawiOS.xcdatamodeld in Sources */,
+				1A8F46B51B33D1C600F9FF66 /* ViewController.swift in Sources */,
+				1A8F46B31B33D1C600F9FF66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A4D010A1B33CB280091CEDE /* Sources */ = {
+		1A8F46C21B33D1C600F9FF66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4D01141B33CB280091CEDE /* DrawKitTests.swift in Sources */,
+				1A8F46CB1B33D1C600F9FF66 /* DrawiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8F46CD1B33D1C600F9FF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8F46D61B33D1C600F9FF66 /* DrawiOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1A4673791B33DAAA00C0C42B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A46736C1B33DAAA00C0C42B /* DrawKit */;
+			targetProxy = 1A4673781B33DAAA00C0C42B /* PBXContainerItemProxy */;
+		};
+		1A46737B1B33DAAA00C0C42B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A8F46AF1B33D1C600F9FF66 /* DrawiOS */;
+			targetProxy = 1A46737A1B33DAAA00C0C42B /* PBXContainerItemProxy */;
+		};
+		1A4673811B33DAAA00C0C42B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A46736C1B33DAAA00C0C42B /* DrawKit */;
+			targetProxy = 1A4673801B33DAAA00C0C42B /* PBXContainerItemProxy */;
+		};
+		1A46739F1B33DB1300C0C42B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A46736C1B33DAAA00C0C42B /* DrawKit */;
+			targetProxy = 1A46739E1B33DB1300C0C42B /* PBXContainerItemProxy */;
+		};
 		1A4D00D11B33A0670091CEDE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1A4D00B81B33A0670091CEDE /* Draw */;
@@ -493,15 +809,15 @@
 			target = 1A4D00B81B33A0670091CEDE /* Draw */;
 			targetProxy = 1A4D00DB1B33A0670091CEDE /* PBXContainerItemProxy */;
 		};
-		1A4D01111B33CB280091CEDE /* PBXTargetDependency */ = {
+		1A8F46C81B33D1C600F9FF66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A4D01041B33CB280091CEDE /* DrawKit */;
-			targetProxy = 1A4D01101B33CB280091CEDE /* PBXContainerItemProxy */;
+			target = 1A8F46AF1B33D1C600F9FF66 /* DrawiOS */;
+			targetProxy = 1A8F46C71B33D1C600F9FF66 /* PBXContainerItemProxy */;
 		};
-		1A4D01311B33CB620091CEDE /* PBXTargetDependency */ = {
+		1A8F46D31B33D1C600F9FF66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A4D01041B33CB280091CEDE /* DrawKit */;
-			targetProxy = 1A4D01301B33CB620091CEDE /* PBXContainerItemProxy */;
+			target = 1A8F46AF1B33D1C600F9FF66 /* DrawiOS */;
+			targetProxy = 1A8F46D21B33D1C600F9FF66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -514,9 +830,106 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		1A8F46B61B33D1C600F9FF66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A8F46B71B33D1C600F9FF66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A8F46BE1B33D1C600F9FF66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A8F46BF1B33D1C600F9FF66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1A4673851B33DAAA00C0C42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DrawKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A4673861B33DAAA00C0C42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DrawKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A4673881B33DAAA00C0C42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DrawKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawiOS.app/DrawiOS";
+			};
+			name = Debug;
+		};
+		1A4673891B33DAAA00C0C42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DrawKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawiOS.app/DrawiOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		1A4D00E11B33A0670091CEDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -602,6 +1015,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Draw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.Draw;
@@ -614,6 +1028,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Draw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.Draw;
@@ -673,81 +1088,91 @@
 			};
 			name = Release;
 		};
-		1A4D01171B33CB280091CEDE /* Debug */ = {
+		1A8F46D91B33D1C600F9FF66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DrawKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = DrawiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawKit;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		1A4D01181B33CB280091CEDE /* Release */ = {
+		1A8F46DA1B33D1C600F9FF66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DrawKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = DrawiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawKit;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		1A4D011A1B33CB280091CEDE /* Debug */ = {
+		1A8F46DC1B33D1C600F9FF66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = DrawKitTests/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawiOSTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawiOS.app/DrawiOS";
 			};
 			name = Debug;
 		};
-		1A4D011B1B33CB280091CEDE /* Release */ = {
+		1A8F46DD1B33D1C600F9FF66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = DrawKitTests/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawiOSTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawiOS.app/DrawiOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A8F46DF1B33D1C600F9FF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawiOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_TARGET_NAME = DrawiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1A8F46E01B33D1C600F9FF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawiOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamztang.DrawiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_TARGET_NAME = DrawiOS;
+				USES_XCTRUNNER = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -755,6 +1180,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A4673841B33DAAA00C0C42B /* Build configuration list for PBXNativeTarget "DrawKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4673851B33DAAA00C0C42B /* Debug */,
+				1A4673861B33DAAA00C0C42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A4673871B33DAAA00C0C42B /* Build configuration list for PBXNativeTarget "DrawKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4673881B33DAAA00C0C42B /* Debug */,
+				1A4673891B33DAAA00C0C42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		1A4D00B41B33A0660091CEDE /* Build configuration list for PBXProject "Draw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -791,20 +1232,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A4D01161B33CB280091CEDE /* Build configuration list for PBXNativeTarget "DrawKit" */ = {
+		1A8F46D81B33D1C600F9FF66 /* Build configuration list for PBXNativeTarget "DrawiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A4D01171B33CB280091CEDE /* Debug */,
-				1A4D01181B33CB280091CEDE /* Release */,
+				1A8F46D91B33D1C600F9FF66 /* Debug */,
+				1A8F46DA1B33D1C600F9FF66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A4D01191B33CB280091CEDE /* Build configuration list for PBXNativeTarget "DrawKitTests" */ = {
+		1A8F46DB1B33D1C600F9FF66 /* Build configuration list for PBXNativeTarget "DrawiOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A4D011A1B33CB280091CEDE /* Debug */,
-				1A4D011B1B33CB280091CEDE /* Release */,
+				1A8F46DC1B33D1C600F9FF66 /* Debug */,
+				1A8F46DD1B33D1C600F9FF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8F46DE1B33D1C600F9FF66 /* Build configuration list for PBXNativeTarget "DrawiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8F46DF1B33D1C600F9FF66 /* Debug */,
+				1A8F46E01B33D1C600F9FF66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -819,6 +1269,16 @@
 			);
 			currentVersion = 1A4D00C31B33A0670091CEDE /* Document.xcdatamodel */;
 			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		1A8F46B91B33D1C600F9FF66 /* DrawiOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A8F46BA1B33D1C600F9FF66 /* DrawiOS.xcdatamodel */,
+			);
+			currentVersion = 1A8F46BA1B33D1C600F9FF66 /* DrawiOS.xcdatamodel */;
+			path = DrawiOS.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

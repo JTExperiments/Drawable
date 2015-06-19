@@ -1,22 +1,22 @@
 //
 //  ViewController.swift
-//  Draw
+//  DrawiOS
 //
 //  Created by James Tang on 19/6/15.
 //  Copyright © 2015 James Tang. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 import DrawKit
 
-class ViewController: NSViewController {
+class ViewController: UIViewController {
 
     var drawable : Drawable? {
         didSet {
             self.drawableView.drawable = drawable
         }
     }
-    @IBOutlet var drawableView: DrawableView!
+    @IBOutlet weak var drawableView: DrawableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,5 +40,6 @@ class ViewController: NSViewController {
         diagram.draw(LogRenderer())
         self.drawable = diagram
     }
+
 }
 

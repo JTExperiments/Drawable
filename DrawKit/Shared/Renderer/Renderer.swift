@@ -1,4 +1,5 @@
 import Foundation
+import CoreGraphics
 
 public protocol Renderer {
     func drawRect(rect: CGRect)

@@ -6,11 +6,15 @@
 //  Copyright © 2015 James Tang. All rights reserved.
 //
 
+#if !os(iOS)
+
 import Cocoa
 
-class DrawableView: NSView {
-    var drawable : Drawable?
-    override func drawRect(dirtyRect: NSRect) {
+public class DrawableView: NSView {
+
+    public var drawable : Drawable?
+
+    public override func drawRect(dirtyRect: NSRect) {
         super.drawRect(dirtyRect)
         if let context = NSGraphicsContext.currentContext()?.CGContext {
             if let drawable = drawable {
@@ -18,8 +22,9 @@ class DrawableView: NSView {
             }
         }
     }
-
-    override var flipped : Bool {
+    public override var flipped : Bool {
         return true
     }
 }
+
+#endif
